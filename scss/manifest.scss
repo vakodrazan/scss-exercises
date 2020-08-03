@@ -1,6 +1,4 @@
-$colour_background: #eee;
-$colour_text: #690;
-$font_base_size: 16px !default;
+@import "./variables/index";
 
 html {
   font-size: $font_base_size;
