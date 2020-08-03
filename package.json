@@ -2,9 +2,7 @@
   "name": "scss-exercises",
   "version": "1.0.0",
   "description": "",
-  "scripts": {
-    
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/onja-org/scss-exercises.git"
@@ -14,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/onja-org/scss-exercises/issues"
   },
-  "homepage": "https://github.com/onja-org/scss-exercises#readme"
+  "homepage": "https://github.com/onja-org/scss-exercises#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
 }
