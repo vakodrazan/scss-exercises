@@ -66,7 +66,7 @@ $colors: map-merge(
   $colors
 );
 
-$primary:       $red !default;
+$primary:       $red;
 $secondary:     $gray-600 !default;
 $success:       $green !default;
 $info:          $cyan !default;
@@ -242,9 +242,9 @@ $line-height-sm:              1.5 !default;
 $border-width:                1px !default;
 $border-color:                $gray-300 !default;
 
-$border-radius:               1rem !default;
-$border-radius-lg:            1rem !default;
-$border-radius-sm:            1rem !default;
+$border-radius:               1rem;
+$border-radius-lg:            .3rem !default;
+$border-radius-sm:            .2rem !default;
 
 $rounded-pill:                50rem !default;
 
@@ -389,8 +389,8 @@ $table-border-level:          -6 !default;
 //
 // Shared variables that are reassigned to `$input-` and `$btn-` specific variables.
 
-$input-btn-padding-y:         .5rem !default;
-$input-btn-padding-x:         1rem !default;
+$input-btn-padding-y:         .5rem;
+$input-btn-padding-x:         1rem;
 $input-btn-font-family:       null !default;
 $input-btn-font-size:         $font-size-base !default;
 $input-btn-line-height:       $line-height-base !default;
